@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300&family=Sansita:wght@800&display=swap');
+
+.modal {
+    display: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header button {
+    margin: 20px 60px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    background-color: white;
+    border-style: none;
+}
+
+body {
+    background-image: url(/donut.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4cbf5;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sansita', sans-serif;
+    padding: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    background-color: white;
+    border-style: none;
+}
+
+#reset-button {
+    margin-top: 10px;
+}
