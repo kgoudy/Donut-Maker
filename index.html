@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Clicker Game</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <button id="company-info-button">Company Info</button>
+        <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank">Original Cookie Clicker</a>
+        <button id="developer-info-button">Developer Info</button>
+        <div class="dropdown" id="company-info">
+            <p>Donut maker corporation was established in 2013 by the army subgroup of wcci</p>
+        </div>
+        <div class="modal" id="developer-info">
+            <p>The Army Team started developing together today. They did a great job.</p>
+            <a href="https://kgoudy.github.io/" target="_blank">Portfolio</a>
+            <a href="https://github.com/kgoudy" target="_blank">GitHub</a>
+        </div>
+    </header>
+    <h1 class="title">Donut Clicker</h1>
+    <main>
+        <p>Donuts: <span id="donut-count">0</span></p>
+        <button id="make-donuts">Make <span id="donut-multiplier">1</span> Donut(s)</button>
+        <section>
+            <h3>Auto Clickers</h3>
+            <p>Amount: <span id="auto-clicker-count">0</span></p>
+            <p>Price: <span id="auto-clicker-cost">100</span></p>
+            <button id="auto-clicker-button" disabled="true">Buy Auto Clicker</button>
+        </section>
+        <section>
+            <h3>Multipliers</h3>
+            <p>Amount: <span id="multiplier-count">0</span></p>
+            <p>Price: <span id="multiplier-cost">10</span></p>
+            <button id="multiplier-button" disabled="true">Buy Multiplier</button>
+        </section>
+        <button id="reset-button">RESET GAME</button>
+    </main>
+    <script src="/DonutMaker.js"></script>
+    <script src="/app.js"></script>
+</body>
+
+</html>
