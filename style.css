@@ -27,7 +27,7 @@ header button {
 }
 
 body {
-    background-image: url(/donut.avif);
+    background-image: url(donut.avif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
